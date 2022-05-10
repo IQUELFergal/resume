@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <script src="https://kit.fontawesome.com/2570db80c7.js" crossorigin="anonymous"></script>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="" class="nav__logo">Fergal Iquel</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home'></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>Profile
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon' ></i>Education
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon' ></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon' ></i>Experience
+                            </a>
+                        </li>
+
+                        <!--<li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bx-award nav__icon'></i>Certificates
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class='bx bx-link-external nav__icon' ></i>References
+                            </a>
+                        </li>-->
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="assets/img/profile.jpg" alt="" class="home__img">
+                                <h1 class="home__title">IQUEL <b>FERGAL</b></h1>
+                                <h3 class="home__profession">Game programmer</h3>
+
+                                <div>
+                                    <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-mobile">Download</a>
+                                </div>
+                            </div>
+
+                            <div class="home__adress bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon' ></i> 462 Rue Massenet Chicoutimi CANADA
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon' ></i> fergal.iquel@gmail.com
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-phone home__icon' ></i> +33 6 09 79 17 23
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+    
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="https://www.linkedin.com/in/fergal-iquel-3054331b0/" target="_blank" class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon' ></i> Fergal Iquel
+                            </a>
+                            <a href="https://github.com/IQUELFergal" target="_blank" class="social__link">
+                                <i class='bx bxl-github social__icon' ></i> IQUELFergal
+                            </a>
+                            <a href="https://fergaliquel.itch.io/" target="_blank" class="social__link">
+                                <i class="fab fa-itch-io social__icon"></i> Fergal Iquel
+                            </a>
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <!--<h2 class="section-title">Profile</h2>-->
+                        <h2 class="section-title">Profil</h2>
+                    
+                    <p class="profile__description"> 
+                        Étudiant en informatique spécialisé depuis plus de deux ans
+                        en conception de jeux vidéos, sérieux et motivé à intégrer le
+                        monde du travail dans un studio de jeu vidéo.
+                        
+                    </p>
+                    </section>
+                    
+                    
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <!--<h2 class="section-title">Skills</h2>-->
+                        <h2 class="section-title">Compétences</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>C#
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>C++
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Python
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Java
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Unity
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Unreal
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <!--<h2 class="section-title">Education</h2>-->
+                        <h2 class="section-title">Éducation</h2>
+
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Maitrise en informatique spé. jeu vidéo</h3>
+                                    <span class="education__studies">2021 - 2023 | UQAC - Université du Québec à Chicoutimi CANADA</span>
+                                    <span class="education__details">Gagnant du concours Ubisoft 2022 (meilleur prototype et meilleure créativité) dans le cadre du cours de laboratoire de jeu vidéo</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Maitrise en ingénierie</h3>
+                                    <span class="education__studies">2016 - 2023 | ENIB - École Nationale d'Ingénieurs de Brest FRANCE</span>
+                                    <span class="education__details">Spécialisé en conception d'application interactives, intelligence artificielle et en réalité et environnements virtuels</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!--<span class="education__line"></span>-->
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Baccalauréat général scientifique</h3>
+                                    <span class="education__studies">2013 - 2016 | Lycée Saint-Joseph Concarneau FRANCE</span>
+                                    <span class="education__details">Mention bien, option informatique et sciences du numérique</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== EXPERIENCE ==========-->
+
+                    <section class="experience section" id="experience">
+                        <!--<h2 class="section-title">Experiences</h2>-->
+                        <h2 class="section-title">Expériences</h2>
+
+                        <div class="experience__container bd-grid">
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!--<span class="experience__line"></span>-->
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">STAGE ASSISTANT INGÉNIEUR (4 mois)</h3>
+                                    <span class="experience__company">2020 | Centre Européen de Réalité Virtuelle, Plouzané, France</span>
+                                    <span class="experience__description">
+                                        Réalisation d'un plugin Unreal Engine utilisant la Réalité Virtuelle pour simuler une
+                                        audience réaliste dans le cadre d'une thèse. Création d'agents virtuels évoluant dans un quartier urbain
+                                        à l'aide de behaviour trees.
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <!--<section class="certificate section" id="certificates">-->
+                        
+                    <!--</section>-->
+
+                    <!--========== REFERENCES ==========-->
+                    <!--<section class="references section" id="references">-->
+                        
+                    <!--</section>-->
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <!--<h2 class="section-title">Languages</h2>-->
+                        <h2 class="section-title">Langages</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Français
+                                </li>
+
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Anglais
+                                </li>
+
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Espagnol
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <!--<h2 class="section-title">Interests</h2>-->
+                        <h2 class="section-title">Intérets</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bx-game'></i>
+                                <span class="interest__name">Jeux vidéos</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-code-block'></i>
+                                <span class="interest__name">Programmation</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-edit-alt' ></i>
+                                <span class="interest__name">Dessin</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
