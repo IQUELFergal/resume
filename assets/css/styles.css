@@ -512,11 +512,6 @@ img{
   margin-right: .75rem;
 }
 
-/*========== PROJECTS ==========*/
-
-
-
-
 /*========== INTERESTS ==========*/
 .interests__container{
   grid-template-columns: repeat(3, 1fr);
