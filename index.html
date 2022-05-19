@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html lang="en">
+    <html lang="fr">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,14 +39,20 @@
                         </li>
 
                         <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon' ></i>Experience
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
                             <a href="#skills" class="nav__link">
                                 <i class='bx bx-receipt nav__icon' ></i>Skills
                             </a>
                         </li>
 
                         <li class="nav__item">
-                            <a href="#experience" class="nav__link">
-                                <i class='bx bx-briefcase-alt nav__icon' ></i>Experience
+                            <a href="#projects" class="nav__link">
+                                <i class='bx bx-award nav__icon'></i>Projects
                             </a>
                         </li>
                     </ul>
@@ -123,7 +129,28 @@
                         
                     </p>
                     </section>
-                    
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <!--<h2 class="section-title">Languages</h2>-->
+                        <h2 class="section-title">Langages</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Français
+                                </li>
+
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Anglais
+                                </li>
+
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Espagnol
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
                     
                     <!--========== SKILLS  ==========-->
                     <section class="skills section" id="skills">
@@ -133,29 +160,25 @@
                         <div class="skills__content bd-grid">
                             <ul class="skills__data">
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span>C#
+                                    <span class="skills__circle"></span>Langages : C#/C++/C/Python
                                 </li>
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span>C++
+                                    <span class="skills__circle"></span>Logiciels : Windows XP, Visual Studio 2019/2022, Microsoft Office, Photoshop, Blender, Aseprite
                                 </li>
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span>Python
+                                    <span class="skills__circle"></span>Moteurs de jeu : Unity, Unreal
                                 </li>
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span>Java
-                                </li>
-                            </ul>
-
-                            <ul class="skills__data">
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span>Unity
+                                    <span class="skills__circle"></span>Gameplay programming : Contolleurs de joueur, intelligence artificielle de PNJ, génération procédurale de niveau, animation procédurale/inverse kinematics
                                 </li>
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span>Unreal
+                                    <span class="skills__circle"></span>Physics programming : Moteur physique 3D en C++ utilisant GLFW, GLEW, GLM et DearImGui
                                 </li>
                             </ul>
                         </div>
                     </section>
+
+                    
 
                 </div>
 
@@ -235,48 +258,66 @@
                         </div>
                     </section>
 
-                    <!--========== LANGUAGES ==========-->
-                    <section class="languages section">
-                        <!--<h2 class="section-title">Languages</h2>-->
-                        <h2 class="section-title">Langages</h2>
+                    <!--========== PROJECTS ==========-->
+                    <section class="projects section" id="projects">
+                        <h2 class="section-title">Projets</h2>
 
-                        <div class="languages__container">
-                            <ul class="languages__content bd-grid">
-                                <li class="languages__name">
-                                    <span class="languages__circle"></span> Français
-                                </li>
+                        <div class="projects__container bd-grid">
+                            <div class="projects__content">
+                                <div class="projects__time">
+                                    <span class="projects__rounder"></span>
+                                    <span class="projects__line"></span>
+                                </div>
 
-                                <li class="languages__name">
-                                    <span class="languages__circle"></span> Anglais
-                                </li>
+                                <div class="projects__data bd-grid">
+                                    <h3 class="projects__title">Homework (PC) 2022</h3>
+                                    <span class="projects__roles">Rôle : Gameplay programmer | Langage : C#</span>
+                                    <span class="projects__details">Jeu en 3D réalisé à 8 personnes dans le cadre d'un cours à l'Université du Québec à Chicoutimmi. Gagnant de 2 prix au concours universitaire Ubisoft 2022 (Meilleur prototype, Meilleures créativité et intégration du thème). J'ai implémenté le controlleur de joueur, le système de sélection d'écran et l'inverse kinematics du personnage</span>
+                                </div>
+                            </div>
 
-                                <li class="languages__name">
-                                    <span class="languages__circle"></span> Espagnol
-                                </li>
-                            </ul>
+                            <div class="projects__content">
+                                <div class="projects__time">
+                                    <span class="projects__rounder"></span>
+                                    <span class="projects__line"></span>
+                                </div>
+
+                                <div class="projects__data bd-grid">
+                                    <h3 class="projects__title">Space Escapers (PC) 2020</h3>
+                                    <span class="projects__roles">Rôle : Game designer, artiste 2D, chef d'équipe</span>
+                                    <span class="projects__details">Jeu en 2D réalisé à 6 personnes lors de la Global Game Jam 2020 en 48h. Je me suis occupé de créer les assets 2D, les animations et de superviser les membres de l'équipe qui débutaient avec Unity.</span>
+                                </div>
+                            </div>
+
+                            <div class="projects__content">
+                                <div class="projects__time">
+                                    <span class="projects__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="projects__data bd-grid">
+                                    <h3 class="projects__title">OverRecycled (PC) 2019</h3>
+                                    <span class="projects__roles">Rôle : Gameplay programmer, artiste 2D | Langage : C#</span>
+                                    <span class="projects__details">Jeu parodiant OverCooked sur le thème du recyclage en 2D. Réalisé en binôme dans le cadre d'un cours à l'École Nationale d'Ingénieurs de Brest en 4 mois. J'ai implémenté le controlleur de joueur, le système de craft et le spawning d'objet</span>
+                                </div>
+                            </div>
+
+                            <div class="projects__content">
+                                <div class="projects__time">
+                                    <span class="projects__rounder"></span>
+                                    <!--<span class="education__line"></span>-->
+                                </div>
+
+                                <div class="projects__data bd-grid">
+                                    <h3 class="projects__title">Autres</h3>
+                                    <span class="projects__roles">Experiences réalisées sur Unity</span>
+                                    <span class="projects__details">Creation d'un système de vague de gerstner en shader graphs (vertex displacement shader), générateur de donjon procédural, animation procédurale, controlleur de joueur 2D/3D avec machine à état</span>
+                                </div>
+                            </div>
                         </div>
                     </section>
+
                     
-                    <!--========== INTERESTS ==========-->
-                    <section class="interests section">
-                        <!--<h2 class="section-title">Interests</h2>-->
-                        <h2 class="section-title">Intérets</h2>
-
-                        <div class="interests__container bd-grid">
-                            <div class="interests__content">
-                                <i class='bx bx-game'></i>
-                                <span class="interest__name">Jeux vidéos</span>
-                            </div>
-                            <div class="interests__content">
-                                <i class='bx bx-code-block'></i>
-                                <span class="interest__name">Programmation</span>
-                            </div>
-                            <div class="interests__content">
-                                <i class='bx bx-edit-alt' ></i>
-                                <span class="interest__name">Dessin</span>
-                            </div>
-                        </div>
-                    </section>
                 </div>
             </div>        
         </main>
