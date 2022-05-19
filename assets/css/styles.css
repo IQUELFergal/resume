@@ -409,6 +409,7 @@ img{
 
 /*========== PROFILE ==========*/
 .profile__description{
+  font-size: var(--normal-font-size);
   text-align: center;
 }
 
@@ -499,7 +500,7 @@ img{
 }
 
 .skills__name{
-  font-size: 1.2rem;
+  font-size: var(--normal-font-size);
   align-items: center;
   margin-bottom: var(--mb-3);
 }
