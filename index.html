@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html lang="fr">
+    <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
         <!--========== CSS ==========-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Responsive resume cv</title>
+        <title>Fergal Iquel</title>
     </head>
     <body>
         <!--========== HEADER ==========-->
@@ -39,20 +39,14 @@
                         </li>
 
                         <li class="nav__item">
-                            <a href="#experience" class="nav__link">
-                                <i class='bx bx-briefcase-alt nav__icon' ></i>Experience
-                            </a>
-                        </li>
-
-                        <li class="nav__item">
                             <a href="#skills" class="nav__link">
                                 <i class='bx bx-receipt nav__icon' ></i>Skills
                             </a>
                         </li>
 
                         <li class="nav__item">
-                            <a href="#projects" class="nav__link">
-                                <i class='bx bx-award nav__icon'></i>Projects
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon' ></i>Experience
                             </a>
                         </li>
                     </ul>
@@ -73,12 +67,12 @@
                         <div class="home__container section bd-grid">
                             <div class="home__data bd-grid">
                                 <img src="assets/img/profile.jpg" alt="" class="home__img">
-                                <h1 class="home__title">IQUEL <b>FERGAL</b></h1>
+                                <h1 class="home__title">Fergal <b>IQUEL</b></h1>
                                 <h3 class="home__profession">Game programmer</h3>
 
-                                <div>
+                                <!--<div>
                                     <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-mobile">Download</a>
-                                </div>
+                                </div>-->
                             </div>
 
                             <div class="home__adress bd-grid">
@@ -97,7 +91,7 @@
                         <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
     
                         <!-- Button to generate and download the pdf. Available for desktop. -->
-                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                        <!--<i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>-->
                     </section>          
                     
                     <!--========== SOCIAL ==========-->
@@ -129,28 +123,7 @@
                         
                     </p>
                     </section>
-
-                    <!--========== LANGUAGES ==========-->
-                    <section class="languages section">
-                        <!--<h2 class="section-title">Languages</h2>-->
-                        <h2 class="section-title">Langages</h2>
-
-                        <div class="languages__container">
-                            <ul class="languages__content bd-grid">
-                                <li class="languages__name">
-                                    <span class="languages__circle"></span> Français
-                                </li>
-
-                                <li class="languages__name">
-                                    <span class="languages__circle"></span> Anglais
-                                </li>
-
-                                <li class="languages__name">
-                                    <span class="languages__circle"></span> Espagnol
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
+                    
                     
                     <!--========== SKILLS  ==========-->
                     <section class="skills section" id="skills">
@@ -160,25 +133,29 @@
                         <div class="skills__content bd-grid">
                             <ul class="skills__data">
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span>Langages : C#/C++/C/Python
+                                    <span class="skills__circle"></span>C#
                                 </li>
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span>Logiciels : Windows XP, Visual Studio 2019/2022, Microsoft Office, Photoshop, Blender, Aseprite
+                                    <span class="skills__circle"></span>C++
                                 </li>
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span>Moteurs de jeu : Unity, Unreal
+                                    <span class="skills__circle"></span>Python
                                 </li>
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span>Gameplay programming : Contolleurs de joueur, intelligence artificielle de PNJ, génération procédurale de niveau, animation procédurale/inverse kinematics
+                                    <span class="skills__circle"></span>Java
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Unity
                                 </li>
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span>Physics programming : Moteur physique 3D en C++ utilisant GLFW, GLEW, GLM et DearImGui
+                                    <span class="skills__circle"></span>Unreal
                                 </li>
                             </ul>
                         </div>
                     </section>
-
-                    
 
                 </div>
 
@@ -258,66 +235,48 @@
                         </div>
                     </section>
 
-                    <!--========== PROJECTS ==========-->
-                    <section class="projects section" id="projects">
-                        <h2 class="section-title">Projets</h2>
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <!--<h2 class="section-title">Languages</h2>-->
+                        <h2 class="section-title">Langages</h2>
 
-                        <div class="projects__container bd-grid">
-                            <div class="projects__content">
-                                <div class="projects__time">
-                                    <span class="projects__rounder"></span>
-                                    <span class="projects__line"></span>
-                                </div>
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Français
+                                </li>
 
-                                <div class="projects__data bd-grid">
-                                    <h3 class="projects__title">Homework (PC) 2022</h3>
-                                    <span class="projects__roles">Rôle : Gameplay programmer | Langage : C#</span>
-                                    <span class="projects__details">Jeu en 3D réalisé à 8 personnes dans le cadre d'un cours à l'Université du Québec à Chicoutimmi. Gagnant de 2 prix au concours universitaire Ubisoft 2022 (Meilleur prototype, Meilleures créativité et intégration du thème)</span>
-                                </div>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Anglais
+                                </li>
+
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Espagnol
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <!--<h2 class="section-title">Interests</h2>-->
+                        <h2 class="section-title">Intérets</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bx-game'></i>
+                                <span class="interest__name">Jeux vidéos</span>
                             </div>
-
-                            <div class="projects__content">
-                                <div class="projects__time">
-                                    <span class="projects__rounder"></span>
-                                    <span class="projects__line"></span>
-                                </div>
-
-                                <div class="projects__data bd-grid">
-                                    <h3 class="projects__title">Space Escapers (PC) 2020</h3>
-                                    <span class="projects__roles">Rôle : Game designer, artiste 2D, chef d'équipe</span>
-                                    <span class="projects__details">Jeu en 2D réalisé à 6 personnes lors de la Global Game Jam 2020 en 48h. Je me suis occupé de créer les assets 2D et de superviser les membres de l'équipe qui débutaient avec Unity.</span>
-                                </div>
+                            <div class="interests__content">
+                                <i class='bx bx-code-block'></i>
+                                <span class="interest__name">Programmation</span>
                             </div>
-
-                            <div class="projects__content">
-                                <div class="projects__time">
-                                    <span class="projects__rounder"></span>
-                                    <span class="education__line"></span>
-                                </div>
-
-                                <div class="projects__data bd-grid">
-                                    <h3 class="projects__title">OverRecycled (PC) 2019</h3>
-                                    <span class="projects__roles">Rôle : Gameplay programmer, artiste 2D | Langage : C#</span>
-                                    <span class="projects__details">Jeu parodiant OverCooked sur le thème du recyclage en 2D. Réalisé en binôme dans le cadre d'un cours à l'École Nationale d'Ingénieurs de Brest en 4 mois. J'ai implémenté le controlleur de joueur, le système de craft et le spawning d'objet</span>
-                                </div>
-                            </div>
-
-                            <div class="projects__content">
-                                <div class="projects__time">
-                                    <span class="projects__rounder"></span>
-                                    <!--<span class="education__line"></span>-->
-                                </div>
-
-                                <div class="projects__data bd-grid">
-                                    <h3 class="projects__title">Autres</h3>
-                                    <span class="projects__roles">Experiences réalisées sur Unity</span>
-                                    <span class="projects__details">Creation d'un système de vague de gerstner en shader graphs (vertex displacement shader), générateur de donjon procédural, animation procédurale, controlleur de joueur 2D/3D avec machine à état</span>
-                                </div>
+                            <div class="interests__content">
+                                <i class='bx bx-edit-alt' ></i>
+                                <span class="interest__name">Dessin</span>
                             </div>
                         </div>
                     </section>
-
-                    
                 </div>
             </div>        
         </main>
