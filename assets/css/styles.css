@@ -499,6 +499,7 @@ img{
 }
 
 .skills__name{
+  font-size: 1.2rem;
   align-items: center;
   margin-bottom: var(--mb-3);
 }
