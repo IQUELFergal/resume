@@ -95,12 +95,12 @@ body.scale-cv{
 }
 
 /*========== Classes modified to reduce size and print on A4 sheet ==========*/
-/*.scale-cv .change-theme,
+.scale-cv .change-theme,
 .scale-cv .generate-pdf{
   display: none;
 }
 
-.scale-cv .bd-container{
+/*.scale-cv .bd-container{
   max-width: 595px;
 }
 
